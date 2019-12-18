@@ -1,0 +1,21 @@
+.footer{
+    height: 40vh;
+    background-color: #070707;
+    padding-top:60px;
+}
+
+.footerGrid{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #navTop{
+    bottom:50px;
+    margin:auto;
+  }
+
+  #navTop h1{
+    color:rgba(255, 255, 255, 0.8);
+  }

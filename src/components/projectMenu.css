@@ -1,0 +1,150 @@
+.homeButton{
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding:20px;
+}
+
+.homeButton a:hover{
+    text-decoration: none;
+    color:#da7b93;
+}
+
+.projectMenu {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    cursor: pointer;
+    pointer-events: none;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding:20px;
+  }
+  .projectMenu:hover {
+    pointer-events: all;
+  }
+  .pLabel {
+    display: inline-block;
+    pointer-events: all;
+  }
+  .pSpacer {
+    display: block;
+    height: 60px;
+    /*margin-top: 50px;*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    position: relative;
+  }
+  .pSpacer:before {
+    content: "";
+    position: absolute;
+    border-left: 1px solid #ffffff;
+    height: 0%;
+    width: 1px;
+    transition: height 0.25s ease;
+    transition-delay: 0.7s;
+  }
+  .pItem {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease, top 0.5s ease;
+    transition-delay: 0;
+  }
+  span {
+    transition: color 0.5s ease;
+  }
+  .pItem a:hover{
+    text-decoration: none;
+  }
+  .pItem:hover span {
+    color: #da7b93;
+  }
+  .pItem p{
+      text-transform: lowercase;
+      display:inline-block;
+      opacity: 0;
+      color:rgba(255, 255, 255, 0.342);
+      margin:0 0 0 10px;
+      padding:0;
+      transition: opacity 0.5s ease, top 0.5s ease;
+      transition-delay: 0;
+  }
+  .pItem:hover p{
+      opacity: 1;
+  }
+  .projectMenu:hover .pSpacer:before {
+    height: 100%;
+    transition-delay: 0s;
+  }
+  .projectMenu:hover .pItem {
+    opacity: 1;
+    top: 0px;
+  }
+  .pItem:nth-child(1) {
+    transition-delay: 0.45s;
+  }
+  .pItem:nth-child(2) {
+    transition-delay: 0.4s;
+  }
+  .pItem:nth-child(3) {
+    transition-delay: 0.35s;
+  }
+  .pItem:nth-child(4) {
+    transition-delay: 0.3s;
+  }
+  .pItem:nth-child(5) {
+    transition-delay: 0.25s;
+  }
+  .pItem:nth-child(6) {
+    transition-delay: 0.2s;
+  }
+  .pItem:nth-child(7) {
+    transition-delay: 0.15s;
+  }
+  .pItem:nth-child(8) {
+    transition-delay: 0.1s;
+  }
+  .pItem:nth-child(9) {
+    transition-delay: 0.05s;
+  }
+  .pItem:nth-child(10) {
+    transition-delay: 0s;
+  }
+  .projectMenu:hover .pItem:nth-child(1) {
+    transition-delay: 0.25s;
+  }
+  .projectMenu:hover .pItem:nth-child(2) {
+    transition-delay: 0.3s;
+  }
+  .projectMenu:hover .pItem:nth-child(3) {
+    transition-delay: 0.35s;
+  }
+  .projectMenu:hover .pItem:nth-child(4) {
+    transition-delay: 0.4s;
+  }
+  .projectMenu:hover .pItem:nth-child(5) {
+    transition-delay: 0.45s;
+  }
+  .projectMenu:hover .pItem:nth-child(6) {
+    transition-delay: 0.5s;
+  }
+  .projectMenu:hover .pItem:nth-child(7) {
+    transition-delay: 0.55s;
+  }
+  .projectMenu:hover .pItem:nth-child(8) {
+    transition-delay: 0.6s;
+  }
+  .projectMenu:hover .pItem:nth-child(9) {
+    transition-delay: 0.65s;
+  }
+  .projectMenu:hover .pItem:nth-child(10) {
+    transition-delay: 0.7s;
+  }

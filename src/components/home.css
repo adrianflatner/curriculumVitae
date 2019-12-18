@@ -1,0 +1,115 @@
+body, html {
+    height: 100%;
+    font-family: 'Lato';
+  }
+  
+  .nav{
+    color:rgba(255, 255, 255, 0.8);
+    top:80%;
+    margin:auto;
+    text-align: center;
+    position: relative;
+  }
+
+  .nav a:hover{
+      text-decoration: none;
+      color:#da7b93;
+  }
+  
+  .parallax {
+    /* The image used */
+    background-color: #2f4454;
+  
+    /* Full height */
+    height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .content {
+    background-color: #2e151b;
+    height: 110vh; 
+    width: 100%;
+  }
+
+  .splitter {
+    background-color: #2e151b;
+    height: 10vh; 
+    width: 100%;
+    padding-top: 100px;
+  }
+  #des>h1{
+    text-align: center;
+  }
+  #des{
+    text-align: justify;
+    color:rgba(255, 255, 255, 0.8);
+    width:50%;
+    margin:auto;
+    padding-top:30vh;
+  }
+  
+  .title{
+    top: 50%;
+    background-color: #da7b93;
+    color:rgba(255, 255, 255, 0.8);
+    width:35%;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    text-align: center;
+    margin:auto;
+    position: relative;
+  }
+  
+
+  
+
+  .children{
+    color:rgba(255, 255, 255, 0.8);
+    padding:20px;
+    width: 40%;
+    height: 30vh;
+    text-align: center
+  
+  }
+  
+ 
+  
+  h1{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.15em;
+  
+  }
+  
+  h2{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;  
+    letter-spacing: 0.15em;
+  }
+  
+  p{
+   
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+  
+  }
+  
+  a{
+    transition: color 0.5s ease;
+  }

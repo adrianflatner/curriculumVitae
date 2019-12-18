@@ -1,0 +1,62 @@
+.poster {
+    /* The image used */
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),url('img/177179.jpg');
+  
+    /* Full height */
+    height: 220vh;
+  
+    /* Create the parallax scrolling effect */
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+    
+  }
+
+  .grid{
+    height:100%;
+    width:70%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-end;
+  }
+
+  .grid>.children{
+      text-align: left;
+      transition: transform .35s;
+  }
+
+
+
+  .grid>.children:hover{
+        transform: scale(1.04);
+
+  }
+
+  a:link {
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.8);
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.8);
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color:rgba(255, 255, 255, 0.8);
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color:rgba(255, 255, 255, 0.8);
+  }

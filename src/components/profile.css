@@ -1,0 +1,48 @@
+.contact {
+    /* The image used */
+    background-color: #2f4454;
+  
+    /* Full height */
+    height: 80vh;
+  
+    /* Create the parallax scrolling effect */
+    z-index: -2;
+    position: relative;
+   
+  }
+
+  #contactphoto{
+    left:20%;
+    top:40%;
+    position: fixed;
+    z-index: -1;
+    width: 25%;
+  }
+  
+  #contactcontent{
+    left:50%;
+    top:55%;
+    position: fixed;
+    z-index: -1;
+    width: 30%;
+    text-align: center;
+    color: #2E151B;
+  }
+  
+  #contactcontent2{
+    left:50%;
+    top:75%;
+    position: fixed;
+    z-index: -1;
+    width: 30%;
+    text-align: right;
+    display:none;
+    color: #2E151B;
+  }
+  
+  #photo{
+      width: 100%;
+      border-radius: 60px;
+      box-shadow: 10px 10px 5px #202f3a;
+      
+  }
