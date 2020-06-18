@@ -5,10 +5,10 @@ body, html {
   
   .nav{
     color:rgba(255, 255, 255, 0.8);
-    top:80%;
-    margin:auto;
+    bottom:3%;
+    left:49%;
     text-align: center;
-    position: relative;
+    position: absolute;
   }
 
   .nav a:hover{
@@ -57,8 +57,8 @@ body, html {
     top: 50%;
     background-color: #da7b93;
     color:rgba(255, 255, 255, 0.8);
-    width:35%;
-    padding: 18px;
+    width:/*35%*/fit-content;
+    padding: 18px 26px 18px 26px;
     font-size: 25px;
     letter-spacing: 10px;
     text-align: center;

@@ -3,17 +3,38 @@
     height: 100vh;
 }
 
-.tech{
-    top: 80%;
+@keyframes load {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+.projectTitle{
+    top: 50%;
     color:rgba(255, 255, 255, 0.8);
-    width:60%;
     padding: 18px;
     font-size: 25px;
     letter-spacing: 10px;
-    text-align: right;
+    text-align: center;
     margin:auto;
-    position: relative;
-    
-
+    position: relative;   
+    animation: 2s ease 0s 1 load;
 }
 
+.tech{
+    bottom:3%;
+    right:10%;
+    color:rgba(255, 255, 255, 0.8);
+    padding: 18px;
+    font-size: 16px;
+    letter-spacing: 10px;
+    text-align: right;
+    margin:auto;
+    position: absolute;    
+    opacity: 0;
+    animation: 2s ease 1s 1 load;
+    animation-fill-mode: forwards;  
+}

@@ -36,7 +36,7 @@
     height: 60px;
     /*margin-top: 50px;*/
     margin-top: 5px;
-    margin-bottom: 5px;
+  
     margin-left: 5px;
     cursor: pointer;
     position: relative;
@@ -68,7 +68,7 @@
     color: #da7b93;
   }
   .pItem p{
-      text-transform: lowercase;
+      text-transform: uppercase;
       display:inline-block;
       opacity: 0;
       color:rgba(255, 255, 255, 0.342);

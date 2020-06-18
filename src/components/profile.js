@@ -10,7 +10,7 @@ const Profile = () => {
       </div>
       <div id="contactcontent">
         <h1>Adrian Røstgård Flatner</h1>
-        <h2>Informatikk</h2>
+        <h2>INFORMATIKK</h2>
       </div>
       <div id="contactcontent2">
         <p>+47 454 86 611</p>
